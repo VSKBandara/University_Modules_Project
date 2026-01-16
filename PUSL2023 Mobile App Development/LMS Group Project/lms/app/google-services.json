@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1071064137646",
+    "firebase_url": "https://locatio-bd1f0-default-rtdb.firebaseio.com",
+    "project_id": "locatio-bd1f0",
+    "storage_bucket": "locatio-bd1f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071064137646:android:2dab67ef0f774a57f1123f",
+        "android_client_info": {
+          "package_name": "com.example.lms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071064137646-mdfjg7qoqrf942fqlq4mi5ti9p2p34pt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN4mbmHQMFNQBXV-8qGHjKeMSm2SS6Vyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071064137646-mdfjg7qoqrf942fqlq4mi5ti9p2p34pt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

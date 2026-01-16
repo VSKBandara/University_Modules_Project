@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="Select a Lecture File from Storage"
+        android:minHeight="48dp"
+        android:textColor="#5A5A5A"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <Button
+
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:background="#9ABDDC"
+        android:text="Upload"
+        android:textColor="#5A5A5A"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#9ABDDC"
+        android:layout_below="@+id/btn"
+        android:text="Retrieve"
+        android:textSize="20sp"
+        android:textColor="#5A5A5A"
+        android:onClick="retrievePDF"
+        android:layout_margin="10dp"/>
+
+</RelativeLayout>
